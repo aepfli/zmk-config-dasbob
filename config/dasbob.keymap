@@ -48,10 +48,10 @@
 
         Base {
             bindings = <
-&kp Q  &kp W  &kp E       &kp R             &kp T        &kp Y      &kp U        &kp I      &kp O    &kp P
-&kp A  &kp S  &kp D       &hm LEFT_SHIFT F  &kp G        &kp H      &hm LSHFT J  &kp K      &kp L    &kp SEMI
-&kp Z  &kp X  &kp C       &kp V             &kp B        &kp N      &kp M        &kp COMMA  &kp DOT  &kp SLASH
-              &kp ESCAPE  &lt 1 BACKSPACE   &lt 3 SPACE  &kp ENTER  &lt 2 DEL    &kp TAB
+&kp P  &kp V  &kp K       &kp C             &kp SLASH        &kp GRAVE      &kp H        &kp G      &kp F    &kp Q
+&kp U  &hm LALT I  &hm LSHFT A  &hm LCTRL E  &kp O       &kp D &hm LCTRL N      &hm LSHFT R  &hm LALT T      &kp SL
+&hm LGUI X  &kp Z  &kp Y       &kp L             &kp DOT        &kp COMMA      &kp M        &kp B  &kp W  &hm LGUI J 
+              &kp LGUI  &lt 2 SPACE   &lt 1 ENTER  &lt 1 TAB  &lt 3 BSPC    &kp LALT
             >;
         };
 
