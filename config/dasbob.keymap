@@ -4,11 +4,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define DEFAULT 0
-#define NUMBER   1
-#define NAVI   2
-#define DE  3
-#define GAME 4
+
 
 / {
     behaviors {
@@ -57,7 +53,7 @@
 &kp P       &kp V        &kp K          &kp C           &kp SLASH   &kp NUHS   &kp H       &kp G       &kp F       &kp Q
 &kp U       &hm LALT I   &hm LSHFT A    &hm LCTRL E     &kp O       &kp D       &hm LCTRL N &hm LSHFT R &hm LALT T  &kp S
 &hm LGUI X  &kp Z        &kp Y          &kp L           &kp DOT     &kp COMMA   &kp M       &kp B       &kp W       &hm LGUI J 
-                        &kp LGUI        &lt NUM SPACE     &lt NAVI ENTER &lt NUM TAB   &lt DE BSPC  &kp LALT
+                        &kp LGUI        &lt 1 SPACE   &lt 2 ENTER &lt 1 TAB   &lt 3 BSPC  &kp LALT
             >;
         };
 
@@ -74,7 +70,7 @@
             bindings = <
 &kp TAB     &kp HOME     &kp UP        &kp END        &trans       &kp GRAVE    &kp LS(N2)          &kp LS(N4)          &kp RA(E)             &kp RA(NUBS)
 &kp DEL     &kp LEFT     &kp DOWN      &kp RIGHT      &kp LC(S)    &kp LS(N0)   &hm LCTRLT KP_PLUS  &hm LSHIFT KP_MINUS &hm LALT KP_ASTERISK  &kp KP_SLASH
-&kp LC(Y)   &kp LC(X)    &kp LC(C)     &kp LC(V)      &kp NUBS     &kp LS(NUBS) &kp LS(N7)          &kp RA(MINUS)       &TG RA(RBKT)          &tog GAME
+&kp LC(Y)   &kp LC(X)    &kp LC(C)     &kp LC(V)      &kp NUBS     &kp LS(NUBS) &kp LS(N7)          &kp RA(MINUS)       &TG RA(RBKT)          &tog 4
                                          &trans                 &trans            &kp LSHFT          &trans            &trans     &trans
             >;
         };
@@ -91,7 +87,7 @@
             bindings = <
 &kp TAB     &kp HOME     &kp UP        &kp END        &trans       &kp GRAVE    &kp LS(N2)          &kp LS(N4)          &kp RA(E)             &kp RA(NUBS)
 &kp DEL     &kp LEFT     &kp DOWN      &kp RIGHT      &kp LC(S)    &kp LS(N0)   &hm LCTRLT KP_PLUS  &hm LSHIFT KP_MINUS &hm LALT KP_ASTERISK  &kp KP_SLASH
-&kp LC(Y)   &kp LC(X)    &kp LC(C)     &kp LC(V)      &kp NUBS     &kp LS(NUBS) &kp LS(N7)          &kp RA(MINUS)       &TG RA(RBKT)          &tog GAME
+&kp LC(Y)   &kp LC(X)    &kp LC(C)     &kp LC(V)      &kp NUBS     &kp LS(NUBS) &kp LS(N7)          &kp RA(MINUS)       &TG RA(RBKT)          &tog 4
                                          &trans                 &trans            &kp LSHFT          &trans            &trans     &trans
             >;
         };
