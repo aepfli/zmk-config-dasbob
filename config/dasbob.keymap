@@ -69,9 +69,9 @@
         Nav {
             bindings = <
 &kp TAB     &kp HOME     &kp UP        &kp END        &trans       &kp GRAVE    &kp LS(N2)          &kp LS(N4)          &kp RA(E)             &kp RA(NUBS)
-&kp DEL     &kp LEFT     &kp DOWN      &kp RIGHT      &kp LC(S)    &kp LS(N0)   &hm LCTRLT KP_PLUS  &hm LSHIFT KP_MINUS &hm LALT KP_MULTIPLY  &kp KP_SLASH
+&kp DEL     &kp LEFT     &kp DOWN      &kp RIGHT      &kp LC(S)    &kp LS(N0)   &hm LCTRL KP_PLUS  &hm LSHIFT KP_MINUS &hm LALT KP_MULTIPLY  &kp KP_SLASH
 &kp LC(Y)   &kp LC(X)    &kp LC(C)     &kp LC(V)      &kp NUBS     &kp LS(NUBS) &kp LS(N7)          &kp RA(MINUS)       &kp RA(RBKT)          &tog 4
-                                         &trans                 &trans            &trans          &trans            &trans     &trans
+                         &trans        &trans         &trans       &trans       &trans              &trans
             >;
         };
 
@@ -86,7 +86,7 @@
         GAME {
             bindings = <
 &kp TAB     &kp Q       &kp UP      &kp E       &kp R       &trans          &kp LS(N2)          &kp LS(N4)          &kp RA(E)             &kp RA(NUBS)
-&kp LSHIFT  &kp LEFT    &kp DOWN    &kp RIGHT   &kp F       &kp LS(N0)      &hm LCTRLT KP_PLUS  &hm LSHIFT KP_MINUS &hm LALT KP_ASTERISK  &kp KP_SLASH
+&kp LSHIFT  &kp LEFT    &kp DOWN    &kp RIGHT   &kp F       &kp LS(N0)      &hm LCTRL KP_PLUS  &hm LSHIFT KP_MINUS &hm LALT KP_ASTERISK  &kp KP_SLASH
 &kp LCTRL   &kp X       &kp C       &kp V       &kp G       &kp LS(NUBS)    &kp LS(N7)          &kp RA(MINUS)       &kp RA(RBKT)          &tog 4
                         &kp Y       &trans      &kp SAPCE   &kp ENTER       &trans     &trans
             >;
