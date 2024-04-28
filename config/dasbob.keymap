@@ -18,10 +18,11 @@ combo_##NAME { \
             compatible = "zmk,behavior-hold-tap";
             label = "homerow mods left";
             #binding-cells = <2>;
+            flavor = "hold-preferred";
             // flavor = "tap-preferred";
-            flavor = "balanced";
+            //flavor = "balanced";
             tapping-term-ms = <400>;
-            quick-tap-ms = <100>;
+            //quick-tap-ms = <100>;
             // global-quick-tap;
             bindings = <&kp>, <&kp>;
             // opposite side hand keys
@@ -31,10 +32,11 @@ combo_##NAME { \
             compatible = "zmk,behavior-hold-tap";
             label = "homerow mods right";
             #binding-cells = <2>;
+            flavor = "hold-preferred";
             // flavor = "tap-preferred";
-            flavor = "balanced";
+            //flavor = "balanced";
             tapping-term-ms = <400>;
-            quick-tap-ms = <100>;
+            //quick-tap-ms = <100>;
             // global-quick-tap;
             bindings = <&kp>, <&kp>;
             // opposite side hand keys
