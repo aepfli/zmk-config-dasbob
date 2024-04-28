@@ -4,7 +4,12 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/outputs.h>
 
-
+#define COMBO(NAME, BINDINGS, KEYPOS) \
+combo_##NAME { \
+    timeout-ms = <20>; \
+    bindings = <BINDINGS>; \
+    key-positions = <KEYPOS>; \
+};
 
 / {
     behaviors {
@@ -44,19 +49,7 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
-        combo_sch {
-            timeout-ms = <50>;
-            layers = <0>;
-            key-positions = <17 18>;
-            bindings = <&kp S &kp C &kp H>;
-        };
-
-        combo_5ch {
-            timeout-ms = <50>;
-            layers = <0>;
-            key-positions = <16 17>;
-            bindings = <&kp LS(S) &kp C &kp H>;
-        };
+        COMBO(shiftablesch, &macro_shiftable_sch, 17 18)
     };
 
     macros {       
@@ -65,6 +58,17 @@
             #binding-cells = <0>;
             bindings = <&kp LSHFT &kp LEFT_GUI &kp S>;
             label = "SNIP";
+        };
+        macro_shiftable_sch: macro_shiftable_sch {
+            label = "Macro_shiftable_sch";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <
+                    &macro_tap &kp S
+                    &macro_release &kp RSHIFT
+                    &macro_tap &kp C &kp H
+            >;
+            tap-ms = <10>;
         };
 
         
