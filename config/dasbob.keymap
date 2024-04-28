@@ -85,10 +85,10 @@
         };
         GAME {
             bindings = <
-&kp TAB     &kp Q       &kp UP      &kp E       &kp R       &trans          &kp LS(N2)          &kp LS(N4)          &kp RA(E)             &kp RA(NUBS)
-&kp LSHIFT  &kp LEFT    &kp DOWN    &kp RIGHT   &kp F       &kp LS(N0)      &hm LCTRL KP_PLUS  &hm LSHIFT KP_MINUS &hm LALT KP_ASTERISK  &kp KP_SLASH
-&kp LCTRL   &kp X       &kp C       &kp V       &kp G       &kp LS(NUBS)    &kp LS(N7)          &kp RA(MINUS)       &kp RA(RBKT)          &tog 4
-                        &kp Y       &trans      &kp SAPCE   &kp ENTER       &trans     &trans
+&kp TAB     &kp Q       &kp UP      &kp E       &kp R       &trans    &trans    &trans  &trans  &trans
+&kp LSHIFT  &kp LEFT    &kp DOWN    &kp RIGHT   &kp F       &trans    &trans    &trans  &trans  &trans
+&kp LCTRL   &kp X       &kp C       &kp V       &kp G       &trans    &trans    &trans  &trans  &tog 4
+                        &kp Y       &mo 1       &kp SPACE   &kp ENTER &trans    &trans
             >;
         };
 
