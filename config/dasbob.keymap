@@ -34,7 +34,7 @@
             bindings = <&kp S &kp C &kp H>;
         };
 
-        combo_Sch {
+        combo_5ch {
             timeout-ms = <50>;
             layers = <0>;
             key-positions = <16 17>;
