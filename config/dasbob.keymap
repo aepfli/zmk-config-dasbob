@@ -18,9 +18,9 @@ combo_##NAME { \
             compatible = "zmk,behavior-hold-tap";
             label = "homerow mods left";
             #binding-cells = <2>;
-            flavor = "hold-preferred";
+            //flavor = "hold-preferred";
             // flavor = "tap-preferred";
-            //flavor = "balanced";
+            flavor = "balanced";
             tapping-term-ms = <400>;
             //quick-tap-ms = <100>;
             // global-quick-tap;
@@ -32,9 +32,9 @@ combo_##NAME { \
             compatible = "zmk,behavior-hold-tap";
             label = "homerow mods right";
             #binding-cells = <2>;
-            flavor = "hold-preferred";
+            //flavor = "hold-preferred";
             // flavor = "tap-preferred";
-            //flavor = "balanced";
+            flavor = "balanced";
             tapping-term-ms = <400>;
             //quick-tap-ms = <100>;
             // global-quick-tap;
@@ -48,8 +48,14 @@ combo_##NAME { \
         combo_esc {
             timeout-ms = <50>;
             layers = <0>;
-            key-positions = <0 1>;
+            key-positions = <10 11>;
             bindings = <&kp ESC>;
+        };
+        combo_tab {
+            timeout-ms = <50>;
+            layers = <0>;
+            key-positions = <20 21>;
+            bindings = <&kp TAB>;
         };
         COMBO(shiftablesch, &macro_shiftable_sch, 17 18)
     };
