@@ -116,17 +116,17 @@ combo_##NAME { \
 
         DE {
             bindings = <
-&trans      &trans  &trans  &trans      &trans      &bt BT_CLR      &bt BT_SEL 0    &trans  &trans  &kp RA(Q)
-&kp LBKT    &trans  &kp SQT &kp RA(E)   &kp SEMI    &out OUT_BLE    &bt BT_SEL 1    &trans  &trans  &kp MINUS
-&trans      &trans  &trans  &trans      &trans      &out OUT_USB    &trans          &trans  &trans  &trans
+&trans      &trans  &trans  &trans      &trans      &trans    &trans    &trans  &trans  &kp RA(Q)
+&kp LBKT    &trans  &kp SQT &kp RA(E)   &kp SEMI    &trans    &trans    &trans  &trans  &kp MINUS
+&trans      &trans  &trans  &trans      &trans      &trans    &trans          &trans  &trans  &trans
                     &trans  &trans      &trans      &trans          &trans          &trans
             >;
         };
         GAME {
             bindings = <
-&kp TAB     &kp Q       &kp UP      &kp E       &kp R       &trans    &trans    &trans  &trans  &trans
-&kp LSHIFT  &kp LEFT    &kp DOWN    &kp RIGHT   &kp F       &trans    &trans    &trans  &trans  &trans
-&kp LCTRL   &kp X       &kp C       &kp V       &kp G       &trans    &trans    &trans  &trans  &tog 4
+&kp TAB     &kp Q       &kp UP      &kp E       &kp R       &bt BT_CLR      &bt BT_SEL 0    &trans  &trans  &trans
+&kp LSHIFT  &kp LEFT    &kp DOWN    &kp RIGHT   &kp F       &out OUT_BLE    &bt BT_SEL 1    &trans  &trans  &trans
+&kp LCTRL   &kp X       &kp C       &kp V       &kp G       &out OUT_USB    &trans    &trans  &trans  &tog 4
                         &kp Y       &mo 1       &kp SPACE   &kp ENTER &trans    &trans
             >;
         };
