@@ -100,7 +100,7 @@ combo_##NAME { \
             bindings = <
 &kp F1       &kp F2        &kp F3          &kp F4           &kp F5   &kp F6         &kp F7       &kp F8       &kp F9       &kp F10
 &kp N1       &hl LALT N2   &hl LSHFT N3    &hl LCTRL N4     &kp N5   &kp N6         &hr LCTRL N7 &hr LSHFT N8 &hr LALT N9  &kp N0
-&kp LS(NUHS) &kp RA(N7)    &kp RA(8)       &kp LS(8)        &kp FSLH &kp LS(FSLH)   &kp LS(N9)   &kp RA(N9)   &kp RA(N0)   &kp LS(N2) 
+&kp LS(NUHS) &kp RA(N7)    &kp RA(N8)       &kp LS(N8)        &kp FSLH &kp LS(FSLH)   &kp LS(N9)   &kp RA(N9)   &kp RA(N0)   &kp LS(N2) 
                             &trans   &trans  &trans  &trans   &trans   &trans
             >;
         };
