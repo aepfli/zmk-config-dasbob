@@ -48,7 +48,7 @@ combo_##NAME { \
         combo_esc {
             timeout-ms = <50>;
             layers = <0>;
-            key-positions = <10 11>;
+            key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
         combo_tab {
@@ -111,7 +111,7 @@ combo_##NAME { \
 
         Nav {
             bindings = <
-&kp TAB     &kp HOME     &kp UP        &kp END        &trans       &kp GRAVE    &kp LS(N2)          &kp LS(N4)          &kp RA(E)             &kp RA(NUBS)
+&kp TAB     &kp HOME     &kp UP        &kp END        &snip       &kp GRAVE    &kp LS(N2)          &kp LS(N4)          &kp RA(E)             &kp RA(NUBS)
 &kp DEL     &kp LEFT     &kp DOWN      &kp RIGHT      &kp LC(S)    &kp LS(N0)   &hr LCTRL KP_PLUS  &hr LSHIFT KP_MINUS &hr LALT KP_MULTIPLY  &kp KP_SLASH
 &kp LC(Y)   &kp LC(X)    &kp LC(C)     &kp LC(V)      &kp NUBS     &kp LS(NUBS) &kp LS(N7)          &kp RA(MINUS)       &kp RA(RBKT)          &tog 4
                          &trans        &trans         &trans       &trans       &trans              &trans
