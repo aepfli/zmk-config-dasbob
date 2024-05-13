@@ -58,6 +58,10 @@ combo_##NAME { \
             bindings = <&kp TAB>;
         };
         COMBO(shiftablesch, &macro_shiftable_sch, 17 18)
+        COMBO(UML_AE, &kp SQT , 11 12)
+        COMBO(UML_OE, &kp SEMI, 12 13)
+        COMBO(UML_UE, &kp LBKT, 10 11)
+        COMBO(DE_SS, &kp MINUS, 18 19)
     };
 
     macros {       
